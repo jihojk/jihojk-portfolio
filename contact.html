@@ -5,28 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Contact</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/CSS" href="assets/css/style.css">
 </head>
 
 <body>
-    <header>
-        <!-- Name Logo -->
-        <h1> Jiho John Kim </h1>
-        <!-- Navigation Bar -->
-        <div class="navbar">
-            <ul>
-                <li> <a href="index.html"> About</a></li>
-                <li> <a href="portfolio.html"> Portfolio</a></li>
-                <li> <a href="contact.html"> Contact</a></li>
-            </ul>
-        </div>
+        <header class="header">
+                <!-- Name Logo -->
+                <h1 class="logo"> Jiho John Kim </h1>
+                <!-- Navigation Bar -->
+                <div class="navbar">
+                    <ul>
+                    <li> <a id="about" href="index.html"> About</a> </li>
+                    <li> <a id="portfolio" href="portfolio.html"> Portfolio</a> </li>
+                    <li> <a id="contact" href="contact.html"> Contact</a> </li>
+                </ul>
+                </div>
 
     </header>
     <!-- Contact Form -->
-    <div>
-        <section> Contact </section>
+    <div class="outer">
+    <div class="content">
+        <section class="about"> Contact </section>
         <hr>
-        <form>
+        <form class="form">
             Name
             <br>
             <input type="text" name="fullname" value="John Smith">
@@ -43,11 +46,10 @@
             <input type="submit" value="Submit">
         </form>
     </div>
-
-    <footer>
-
-
-    </footer>
+</div>
+    <footer class="foot">
+            <h3> Copyright &copy; Jiho John Kim </h3>
+        </footer>
 </body>
 
 </html>
